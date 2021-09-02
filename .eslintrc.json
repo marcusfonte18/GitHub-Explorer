@@ -36,14 +36,8 @@
         "ts": "never",
         "tsx": "never"
       }
-    ],
-    "prettier/prettier": [
-      "warn",
-      {
-        "singleQuote": true,
-        "semi": true
-      }
     ]
+    // "prettier/prettier": ["error", { "singleQuote": true }]
   },
   "settings": {
     "import/resolver": {
