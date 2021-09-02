@@ -41,6 +41,10 @@
     "allow-bind": "off",
     "react/jsx-no-bind": "off",
     "camelcase": "off",
+    "no-unused-vars": "off",
+    "implicit-arrow-linebreak": "off",
+    "operator-linebreak": "off",
+    "indent": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
