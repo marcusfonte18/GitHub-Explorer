@@ -19,7 +19,7 @@
   },
   "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
   "rules": {
-    "react-hooks/rules-of-hooks": "error",
+    // "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [
       1,
@@ -45,6 +45,8 @@
     "implicit-arrow-linebreak": "off",
     "operator-linebreak": "off",
     "indent": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react-hooks/rules-of-hooks": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
